@@ -1,0 +1,15 @@
+#Config.yml
+# Database configuration
+databaseType: sqlite
+mysql:
+  host: localhost
+  port: 3306
+  database: soulboundutils
+  username: root
+  password: password123
+  tablePrefix: sbu_
+sqlite:
+  database: soulboundutils.db
+
+# Language configuration
+language: en_US

@@ -1,0 +1,30 @@
+name: S0ulboundEssentials
+version: '${version}'
+main: me.s0uldsilence.s0ulboundutils.S0ulboundUtils
+api-version: 1.19
+
+commands:
+  sethome:
+    description: Set a home at your current location
+    usage: /sethome <name>
+  delhome:
+    description: Delete a previously set home
+    usage: /delhome <name>
+  listhomes:
+    description: List all homes set by the player
+    usage: /listhomes
+  home:
+    description: Teleports the player to the Home
+  homes:
+    description: Opens a list of homes.
+
+permissions:
+  s0ulboundutils.sethome:
+    description: Allows the player to set a home
+    default: true
+  s0ulboundutils.delhome:
+    description: Allows the player to delete their own homes
+    default: true
+  s0ulboundutils.listhomes:
+    description: Allows the player to list their own homes
+    default: true
